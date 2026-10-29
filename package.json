@@ -63,7 +63,7 @@
     "qrcode": "^1.5.4"
   },
   "devDependencies": {
-    "@types/node": "^22.13.10",
+    "@types/node": "^26.6.5",
     "@types/qrcode": "^1.5.6",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
