@@ -14,14 +14,13 @@
   ],
   "author": "SplitInTech, @ojchavan",
   "license": "MIT",
-  "homepage": "https://github.com/splitintech/open-internal-tools/tree/main/airdrop-qr#readme",
+  "homepage": "https://github.com/splitintech/airdrop-qr#readme",
   "bugs": {
-    "url": "https://github.com/splitintech/open-internal-tools/issues"
+    "url": "https://github.com/splitintech/airdrop-qr/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitintech/open-internal-tools.git",
-    "directory": "airdrop-qr"
+    "url": "git+https://github.com/splitintech/airdrop-qr.git"
   },
   "type": "module",
   "sideEffects": false,
@@ -56,7 +55,9 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "check:migration": "python3 scripts/check-migration.py",
+    "check:packed": "node scripts/check-packed.mjs"
   },
   "dependencies": {
     "qrcode": "^1.5.4"

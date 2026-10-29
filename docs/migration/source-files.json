@@ -1,0 +1,168 @@
+{
+  "source_repository": "https://github.com/splitintech/open-internal-tools",
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "product": "airdrop-qr",
+  "files": [
+    {
+      "source": ".github/workflows/airdrop-qr-publish.yml",
+      "target": ".github/workflows/airdrop-qr-publish.yml",
+      "git_blob": "b588ec2eb5e5cce1eec7a85c7bd65af0352becf3",
+      "mode": "100644",
+      "sha256": "dda7addffd9c84aa37ca3df47ac06e640f8a6d529d694f7f317d2890285b4e38"
+    },
+    {
+      "source": "airdrop-qr/.gitignore",
+      "target": ".gitignore",
+      "git_blob": "eeff4fce0b55dc7a8396802ec1ee10ccab731e5f",
+      "mode": "100644",
+      "sha256": "053560d2c7568e06f56587b4dccc233d2431a1cf2d03c8e4e72048481a796336"
+    },
+    {
+      "source": "airdrop-qr/LICENSE",
+      "target": "LICENSE",
+      "git_blob": "c079cfa5ab82f80aff9bd928f85b7ff80892672c",
+      "mode": "100644",
+      "sha256": "e4808606c50b92107066d326e3bbf4301f23144e1fcfbb21df7589e91f9b7c67"
+    },
+    {
+      "source": "airdrop-qr/README.md",
+      "target": "README.md",
+      "git_blob": "86281d304015f2de20cf4c9717eed82720ac318e",
+      "mode": "100644",
+      "sha256": "83f17bb92682d83b8b4eaa471f8049b1efefd4421b67adf7b61db397034f00cf"
+    },
+    {
+      "source": "airdrop-qr/examples/sample-catalog.json",
+      "target": "examples/sample-catalog.json",
+      "git_blob": "35d1d90254a397cc6d81be262a5b13b8c762df48",
+      "mode": "100644",
+      "sha256": "4b7c167f930d69aadf6f1d801689b7fab37bbdc47b88dfd58844f7827da25e86"
+    },
+    {
+      "source": "airdrop-qr/package-lock.json",
+      "target": "package-lock.json",
+      "git_blob": "5b4cd20586d5c7dccad41614053f434dc87b9b70",
+      "mode": "100644",
+      "sha256": "da1963d919e37422aa4f60d966a4417455148a5c45a4f78bb9d476746308fe24"
+    },
+    {
+      "source": "airdrop-qr/package.json",
+      "target": "package.json",
+      "git_blob": "8d5805500fdb6fd6b502a120380e89fb2863078e",
+      "mode": "100644",
+      "sha256": "b63201a35ba0d6eb838e7efcfd3f44f66a2e1b3d597886808b8087c967cbbabc"
+    },
+    {
+      "source": "airdrop-qr/src/browser.ts",
+      "target": "src/browser.ts",
+      "git_blob": "6484ed71c8b762ffed15aa62f68c9d16ef246037",
+      "mode": "100644",
+      "sha256": "068bf29c8fc0abc27e40f79ce167a5c5baa51abc06a69496ee7fbef6b94b1633"
+    },
+    {
+      "source": "airdrop-qr/src/catalog.ts",
+      "target": "src/catalog.ts",
+      "git_blob": "deca887156be9eef8ab24c4e98972fc5f3e880ad",
+      "mode": "100644",
+      "sha256": "cbdd75cefe1dc4105448ad7c617eb42c33d4691deb4ce6203a3c8abb033fdcda"
+    },
+    {
+      "source": "airdrop-qr/src/cli.ts",
+      "target": "src/cli.ts",
+      "git_blob": "34328f4a875f7b0e62d370f3edce9a23b477d05e",
+      "mode": "100644",
+      "sha256": "d8cc343135f05f53b866909f71c907fdafdf9a720dd930da55d44cfe4dec3986"
+    },
+    {
+      "source": "airdrop-qr/src/filesystem.ts",
+      "target": "src/filesystem.ts",
+      "git_blob": "2a3e998c7a9ded1c622bac3ad30462c9f1997d43",
+      "mode": "100644",
+      "sha256": "f808d33a1ac59dc0f8893dbbba09b6995818a0b1e0f5732e1bcffea359d9ed41"
+    },
+    {
+      "source": "airdrop-qr/src/generate.ts",
+      "target": "src/generate.ts",
+      "git_blob": "81064767dffe8b6399fe1e50edbd6e93ce598eb5",
+      "mode": "100644",
+      "sha256": "17cf99f6f64e98cbcba35401ae4983cbc393a5996cd7b116c7a3f214353a87d4"
+    },
+    {
+      "source": "airdrop-qr/src/index.ts",
+      "target": "src/index.ts",
+      "git_blob": "67ffe9299017937a759c46ab641a6bfd670acb4e",
+      "mode": "100644",
+      "sha256": "a68e92147843fcf9175d7d323d6061accd173eb4f2ecd962904643463d7a6701"
+    },
+    {
+      "source": "airdrop-qr/src/template.ts",
+      "target": "src/template.ts",
+      "git_blob": "6e8dd37049a00ef2d629e9fe4255dfb3df56ccd3",
+      "mode": "100644",
+      "sha256": "7aaa9183f8671d08a4b660af9c7a71534a559e117c0fdbc56ca20bab509e8fbc"
+    },
+    {
+      "source": "airdrop-qr/src/types.ts",
+      "target": "src/types.ts",
+      "git_blob": "987230fad89d8c67dbb1e8cd6f5a8147d4c3d22b",
+      "mode": "100644",
+      "sha256": "7ba1ee0c244304268fd393be8769ba6bed142d43720e36d1cc88211442c63af9"
+    },
+    {
+      "source": "airdrop-qr/tests/browser.test.ts",
+      "target": "tests/browser.test.ts",
+      "git_blob": "a38fc912b82edc7309db8b1e99816459154c8167",
+      "mode": "100644",
+      "sha256": "1ad517b0e06410a4b5be8ffb385efcb06767f8ad202fbebd48b50474981100f1"
+    },
+    {
+      "source": "airdrop-qr/tests/generate.test.ts",
+      "target": "tests/generate.test.ts",
+      "git_blob": "63c32d18571f630ce696e155958eb4212380d8c3",
+      "mode": "100644",
+      "sha256": "03590caccd84520e36df9ea8e7f2d8ae75e3bd20ae3ba27faccaf3d3aea48f8b"
+    },
+    {
+      "source": "airdrop-qr/tsconfig.json",
+      "target": "tsconfig.json",
+      "git_blob": "529c29160fa2f4237d646d567a9dbda6a8487c1b",
+      "mode": "100644",
+      "sha256": "fcb4f744f2cfa973991698792e28696bda26d127a919a2917b8e9b498b3dcc0e"
+    },
+    {
+      "source": "airdrop-qr/tsup.config.ts",
+      "target": "tsup.config.ts",
+      "git_blob": "dc796590746e9c10da4fb7d8ce9e129cabc626b7",
+      "mode": "100644",
+      "sha256": "3351f357563965deafef39b52ef0d4603ad11fba75f16798cbeaea261e3dd9a8"
+    },
+    {
+      "source": "airdrop-qr/vitest.config.ts",
+      "target": "vitest.config.ts",
+      "git_blob": "b91163fb5bba7035bfc3601f38183906d3513421",
+      "mode": "100644",
+      "sha256": "3c733ed3ed1b92c001fe318b80e13497ab3ec30ec95516945dacf879e8d7f6fc"
+    },
+    {
+      "source": "docs/brand/splitin-logo.png",
+      "target": "docs/brand/splitin-logo.png",
+      "git_blob": "807558c4206517d878dfe932315bf738317141fe",
+      "mode": "100644",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72"
+    },
+    {
+      "source": "scripts/assert-release-tag.mjs",
+      "target": "scripts/assert-release-tag.mjs",
+      "git_blob": "15d8bcd982dc7ede03be3d62179181aed1066b0f",
+      "mode": "100755",
+      "sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606"
+    },
+    {
+      "source": "scripts/oidc-npm-publish.mjs",
+      "target": "scripts/oidc-npm-publish.mjs",
+      "git_blob": "dde682ea4b5c0119a057f1002e86f09614bf569f",
+      "mode": "100755",
+      "sha256": "5215d31833c6d52fe2d8f9f058ca0c530882037bc67d4c06e16119041057a5ad"
+    }
+  ]
+}

@@ -5,8 +5,8 @@ Turn any URL catalog into **offline self-contained HTML cards** with embedded SV
 No CDN. No network needed to *display* the card — only the scanned destination hits the internet.
 
 ```sh
-git clone https://github.com/splitintech/open-internal-tools.git
-cd open-internal-tools/airdrop-qr
+git clone https://github.com/splitintech/airdrop-qr.git
+cd airdrop-qr
 npm install
 npm test
 npm run build
@@ -94,3 +94,8 @@ The hosted playground is isolated from customer verification, onboarding and pay
 ### Browser exports (0.2)
 
 Import `parseCatalogText`, `catalogErrors`, `generateAssets` and `svgToPng` from `@splitin/airdrop-qr/browser`. JSON uses the existing catalog format. CSV requires `slug,label,url` and optional `blurb`, with UTF-8, quoted commas and quoted newlines supported. Limits: 5 MB input, 250 entries, HTTPS destinations without credentials. Theme values accept only #RGB/#RRGGBB. QR pixels stay dark on white; PNG is 1024px. Pass `signal` and `onProgress(completed,total)` to generation. All assets remain in memory; the CLI retains its filesystem output and 320px SVG markup. HTML works offline and contains no scripts or remote fonts.
+
+
+## Standalone repository
+
+This product is maintained at [airdrop-qr](https://github.com/splitintech/airdrop-qr). Clone this repository and run the documented setup from its root. The npm/package and API identities are preserved. See [migration provenance](docs/migration.md) and [contributing](CONTRIBUTING.md). See [release setup](docs/repository-release.md); publishing starts disabled pending external configuration.

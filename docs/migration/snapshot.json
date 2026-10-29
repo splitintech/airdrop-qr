@@ -1,0 +1,166 @@
+{
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "files": [
+    {
+      "path": ".github/workflows/airdrop-qr-publish.yml",
+      "sha256": "1ee6f869853f95da70093798c976a36dd429f974d33d9b1fa271ba34e2183e27",
+      "source_sha256": "dda7addffd9c84aa37ca3df47ac06e640f8a6d529d694f7f317d2890285b4e38",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "3928f24a4a556c18a5674d2f186ec672d454f4661205d9c26d8717bdd91f0452",
+      "source_sha256": "053560d2c7568e06f56587b4dccc233d2431a1cf2d03c8e4e72048481a796336",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "e4808606c50b92107066d326e3bbf4301f23144e1fcfbb21df7589e91f9b7c67",
+      "source_sha256": "e4808606c50b92107066d326e3bbf4301f23144e1fcfbb21df7589e91f9b7c67",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "README.md",
+      "sha256": "b5b177c4932c47cbc9a1e970a923a6a6f2e013b4e8cbe144269e3b131435b263",
+      "source_sha256": "83f17bb92682d83b8b4eaa471f8049b1efefd4421b67adf7b61db397034f00cf",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "examples/sample-catalog.json",
+      "sha256": "4b7c167f930d69aadf6f1d801689b7fab37bbdc47b88dfd58844f7827da25e86",
+      "source_sha256": "4b7c167f930d69aadf6f1d801689b7fab37bbdc47b88dfd58844f7827da25e86",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "da1963d919e37422aa4f60d966a4417455148a5c45a4f78bb9d476746308fe24",
+      "source_sha256": "da1963d919e37422aa4f60d966a4417455148a5c45a4f78bb9d476746308fe24",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "package.json",
+      "sha256": "1c6d18e589f6c839ead7b2e37c0188cae84685e9fabc566bcdb3c8f33eb84d88",
+      "source_sha256": "b63201a35ba0d6eb838e7efcfd3f44f66a2e1b3d597886808b8087c967cbbabc",
+      "mode": "100644",
+      "change": "Standalone documentation, repository metadata, workflow paths, or developer configuration."
+    },
+    {
+      "path": "src/browser.ts",
+      "sha256": "068bf29c8fc0abc27e40f79ce167a5c5baa51abc06a69496ee7fbef6b94b1633",
+      "source_sha256": "068bf29c8fc0abc27e40f79ce167a5c5baa51abc06a69496ee7fbef6b94b1633",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/catalog.ts",
+      "sha256": "cbdd75cefe1dc4105448ad7c617eb42c33d4691deb4ce6203a3c8abb033fdcda",
+      "source_sha256": "cbdd75cefe1dc4105448ad7c617eb42c33d4691deb4ce6203a3c8abb033fdcda",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/cli.ts",
+      "sha256": "d8cc343135f05f53b866909f71c907fdafdf9a720dd930da55d44cfe4dec3986",
+      "source_sha256": "d8cc343135f05f53b866909f71c907fdafdf9a720dd930da55d44cfe4dec3986",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/filesystem.ts",
+      "sha256": "f808d33a1ac59dc0f8893dbbba09b6995818a0b1e0f5732e1bcffea359d9ed41",
+      "source_sha256": "f808d33a1ac59dc0f8893dbbba09b6995818a0b1e0f5732e1bcffea359d9ed41",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/generate.ts",
+      "sha256": "17cf99f6f64e98cbcba35401ae4983cbc393a5996cd7b116c7a3f214353a87d4",
+      "source_sha256": "17cf99f6f64e98cbcba35401ae4983cbc393a5996cd7b116c7a3f214353a87d4",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "a68e92147843fcf9175d7d323d6061accd173eb4f2ecd962904643463d7a6701",
+      "source_sha256": "a68e92147843fcf9175d7d323d6061accd173eb4f2ecd962904643463d7a6701",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/template.ts",
+      "sha256": "7aaa9183f8671d08a4b660af9c7a71534a559e117c0fdbc56ca20bab509e8fbc",
+      "source_sha256": "7aaa9183f8671d08a4b660af9c7a71534a559e117c0fdbc56ca20bab509e8fbc",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "7ba1ee0c244304268fd393be8769ba6bed142d43720e36d1cc88211442c63af9",
+      "source_sha256": "7ba1ee0c244304268fd393be8769ba6bed142d43720e36d1cc88211442c63af9",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tests/browser.test.ts",
+      "sha256": "1ad517b0e06410a4b5be8ffb385efcb06767f8ad202fbebd48b50474981100f1",
+      "source_sha256": "1ad517b0e06410a4b5be8ffb385efcb06767f8ad202fbebd48b50474981100f1",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tests/generate.test.ts",
+      "sha256": "03590caccd84520e36df9ea8e7f2d8ae75e3bd20ae3ba27faccaf3d3aea48f8b",
+      "source_sha256": "03590caccd84520e36df9ea8e7f2d8ae75e3bd20ae3ba27faccaf3d3aea48f8b",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "fcb4f744f2cfa973991698792e28696bda26d127a919a2917b8e9b498b3dcc0e",
+      "source_sha256": "fcb4f744f2cfa973991698792e28696bda26d127a919a2917b8e9b498b3dcc0e",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "tsup.config.ts",
+      "sha256": "3351f357563965deafef39b52ef0d4603ad11fba75f16798cbeaea261e3dd9a8",
+      "source_sha256": "3351f357563965deafef39b52ef0d4603ad11fba75f16798cbeaea261e3dd9a8",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "vitest.config.ts",
+      "sha256": "3c733ed3ed1b92c001fe318b80e13497ab3ec30ec95516945dacf879e8d7f6fc",
+      "source_sha256": "3c733ed3ed1b92c001fe318b80e13497ab3ec30ec95516945dacf879e8d7f6fc",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "docs/brand/splitin-logo.png",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "source_sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72",
+      "mode": "100644",
+      "change": null
+    },
+    {
+      "path": "scripts/assert-release-tag.mjs",
+      "sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606",
+      "source_sha256": "c11eca6fe51e8e8e899262e19c8c6e7bab798a474241cc9f02ced9a9a01a7606",
+      "mode": "100755",
+      "change": null
+    },
+    {
+      "path": "scripts/oidc-npm-publish.mjs",
+      "sha256": "5215d31833c6d52fe2d8f9f058ca0c530882037bc67d4c06e16119041057a5ad",
+      "source_sha256": "5215d31833c6d52fe2d8f9f058ca0c530882037bc67d4c06e16119041057a5ad",
+      "mode": "100755",
+      "change": null
+    }
+  ]
+}
